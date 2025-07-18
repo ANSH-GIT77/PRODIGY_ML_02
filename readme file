@@ -1,0 +1,85 @@
+# 🧠 Customer Segmentation using K-Means Clustering
+### 📌 Prodigy InfoTech – Internship Task 2
+
+---
+
+## 📄 Task Objective
+
+Create a **K-Means Clustering** algorithm to group customers of a retail store based on their purchase behavior.
+
+This unsupervised machine learning model helps in understanding customer segments, which can be used for:
+- Personalized marketing
+- Improved customer experience
+- Product recommendation strategies
+
+---
+
+## 📊 Dataset Used
+
+**Source:** Kaggle  
+🔗 [Customer Segmentation Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+
+This dataset contains the following customer features:
+- `CustomerID`
+- `Genre`
+- `Age`
+- `Annual Income (k$)`
+- `Spending Score (1-100)`
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 🧪 Steps Performed
+
+1. **Data Loading & Exploration**
+   - Imported dataset and checked basic info, nulls, and statistics
+2. **Data Visualization**
+   - Used scatter plots, histograms, and pairplots to understand distributions
+3. **Preprocessing**
+   - Handled missing data and encoded categorical variables
+4. **K-Means Clustering**
+   - Used `Elbow Method` to find optimal number of clusters (k)
+   - Applied KMeans and segmented customers
+5. **Cluster Visualization**
+   - Plotted clusters using `Annual Income` and `Spending Score`
+6. **Interpretation**
+   - Analyzed clusters to understand customer groups
+
+---
+
+## 📌 Results
+
+- Identified meaningful customer segments based on income and spending behavior
+- Cluster insights can help in **targeted marketing strategies**
+
+---
+
+## 🧾 Output Example
+
+![Cluster Output Example](assets/kmeans_clusters.png)
+
+> Replace the above with your actual cluster visualization (if needed)
+
+---
+
+## 🧠 Conclusion
+
+This project showcases how unsupervised learning can provide **valuable business insights** from customer data. The model helps retail businesses identify patterns in customer behavior and create more effective marketing campaigns.
+
+---
+
+## 🔗 GitHub Repository
+
+📍 Add this notebook and visuals to a GitHub repo  
+📌 Include the GitHub link at the top of your Jupyter notebook as well.
